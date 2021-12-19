@@ -6,7 +6,7 @@
 <div>
   
 <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="150" height="150"></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://camo.githubusercontent.com/86d9ca3437f5034da052cf0fd398299292aab0e4479b58c20f2fc37dd8ccbe05/68747470733a2f2f666173746170692e7469616e676f6c6f2e636f6d2f696d672f6c6f676f2d6d617267696e2f6c6f676f2d7465616c2e706e67" width="300" height="200"></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="300" height="200"></a>
 <a href="https://v3.vuejs.org/guide/introduction.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" width="150" height="150"></a>
 <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" width="150" height="150"></a>
 <a href="https://docs.deta.sh/docs/home/"><img src="https://docs.deta.sh/img/logo.svg" width="150" height="150"></a>

@@ -29,8 +29,7 @@ async def api():
 
 @app.get("/api/quotes")
 async def api():
-    api_response = get_data_from_api()
-    return api_response
+    return get_data_from_api()
 
 
 @app.get("/api/images")
@@ -39,5 +38,4 @@ async def api():
     author_quote_mapping = create_author_quote_mapping(api_data)
     author_quote_mapping = dict(
         sorted(author_quote_mapping.items(), key=lambda x: x[0].lower()))
-    images = get_author_image(list(author_quote_mapping.keys()))
-    return images
+    return get_author_image(list(author_quote_mapping.keys()))

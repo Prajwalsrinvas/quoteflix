@@ -92,11 +92,12 @@ def get_quotes_with_author_images():
         sorted(author_quote_mapping.items(), key=lambda x: x[0].lower()))
     images = get_author_image(list(author_quote_mapping.keys()))
     # consider quotes from only those authors whose image is available
-    quotes_with_author_images = []
-    for author, quotes in author_quote_mapping.items():
-        if author in images:
-            quotes_with_author_images.append({'name': author, 'image': images[author],
-                                              'quotes': quotes})
+    quotes_with_author_images = [
+        {'name': author, 'image': images[author], 'quotes': quotes}
+        for author, quotes in author_quote_mapping.items()
+        if author in images
+    ]
+
     return chunks(quotes_with_author_images, 3)
 
 
